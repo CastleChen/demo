@@ -53,7 +53,7 @@ def locate_and_draw_wechat_icon(template_path, threshold=0.5):
 
 # 使用示例
 if __name__ == "__main__":
-    template_path = "wechat_icon.png"  # 替换为你的微信图标模板图像路径
+    template_path = "ZY-win\src\demo\WeChatClick\wechat_icon.png"  # 替换为你的微信图标模板图像路径
     result_image, icon_center = locate_and_draw_wechat_icon(template_path)
     
     if result_image is not None:
